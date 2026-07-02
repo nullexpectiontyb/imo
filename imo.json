@@ -1,7 +1,85 @@
-{
-  "status": "on",
-  "title": "🚨✨ <font color='#FF0000'><b>জরুরী নোটিশ</b></font> ✨🚨",
-  "body": "<center><h2><font color='#00BFFF'>💙 প্রিয় সম্মানিত ব্যবহারকারী 💙</font></h2><br><br><font color='#00FF00'><b>🌸 আসসালামু আলাইকুম 🌸</b></font><br><br><font color='#FFFFFF'>আপনাকে আমাদের অ্যাপে স্বাগতম। আশা করি মহান আল্লাহর রহমতে আপনি ভালো আছেন। ❤️</font><br><br><font color='#FFD700'><b>📢 গুরুত্বপূর্ণ ঘোষণা</b></font><br><font color='#FFFFFF'>এই অ্যাপের সকল আপডেট, নোটিশ এবং নতুন ফিচার সম্পূর্ণভাবে GitHub Server-এর মাধ্যমে নিয়ন্ত্রণ করা হচ্ছে। তাই নতুন কোনো আপডেট প্রকাশ হলে সেটি স্বয়ংক্রিয়ভাবে আপনার অ্যাপে প্রদর্শিত হবে।</font><br><br><font color='#00FFFF'>✨ অনুগ্রহ করে নিয়মিত অ্যাপটি ব্যবহার করুন এবং নতুন আপডেটের জন্য অপেক্ষা করুন।</font><br><br><font color='#7CFC00'>✅ কোনো সমস্যা হলে নিচের Contact বাটনে ক্লিক করে আমাদের সাথে যোগাযোগ করুন।</font><br><br><font color='#FFA500'>📌 YouTube বাটনে ক্লিক করে আমাদের সর্বশেষ ভিডিও ও আপডেট দেখতে পারবেন।</font><br><br><font color='#FF69B4'>💝 আপনার ভালোবাসা ও সহযোগিতাই আমাদের এগিয়ে যাওয়ার অনুপ্রেরণা।</font><br><br><font color='#ADFF2F'>🌟 আমাদের সাথে থাকার জন্য আন্তরিক ধন্যবাদ।</font><br><br><font color='#FF0000'><b>❤️ ধন্যবাদ ❤️</b></font><br><font color='#00BFFF'><b>Team Developer</b></font></center>",
-  "ok_link": "https://youtube.com",
-  "contact_link": "https://google.com"
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<title>জরুরী নোটিশ</title>
+<style>
+body{
+    background:#111;
+    font-family:Arial,sans-serif;
+    color:#fff;
+    text-align:center;
+    padding:20px;
 }
+.box{
+    background:linear-gradient(135deg,#ff0066,#6600ff,#00c3ff);
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 0 25px #00ffff;
+}
+h1{
+    color:#ffff00;
+    text-shadow:0 0 10px red;
+}
+p{
+    font-size:18px;
+    line-height:1.8;
+}
+.red{color:#ff4040;}
+.green{color:#00ff66;}
+.blue{color:#00d9ff;}
+.yellow{color:#ffff00;}
+.pink{color:#ff66cc;}
+button{
+    margin:10px;
+    padding:12px 30px;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    cursor:pointer;
+}
+.ok{
+    background:#00cc66;
+    color:#fff;
+}
+.contact{
+    background:#ff4444;
+    color:#fff;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+<h1>🚨 জরুরী নোটিশ 🚨</h1>
+
+<p class="green">🌸 আসসালামু আলাইকুম 🌸</p>
+
+<p class="blue">
+প্রিয় ব্যবহারকারী, আপনাকে আমাদের অ্যাপে স্বাগতম।
+</p>
+
+<p class="yellow">
+এই অ্যাপের সকল আপডেট GitHub-এর মাধ্যমে নিয়ন্ত্রণ করা হচ্ছে।
+</p>
+
+<p class="pink">
+নতুন আপডেট, ফিচার এবং গুরুত্বপূর্ণ তথ্য নিয়মিত পেতে আমাদের সাথে থাকুন।
+</p>
+
+<p class="red">
+আপনার ভালোবাসা ও সহযোগিতাই আমাদের অনুপ্রেরণা। ❤️
+</p>
+
+<button class="ok" onclick="location.href='https://youtube.com'">
+▶ YouTube
+</button>
+
+<button class="contact" onclick="location.href='https://google.com'">
+☎ Contact
+</button>
+
+</div>
+
+</body>
+</html>
